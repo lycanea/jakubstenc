@@ -1,0 +1,194 @@
+<!DOCTYPE HTML>
+<!--
+Geobotanika
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>Geobotanika</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+<style>
+#more {display: none;}
+</style>
+		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.dropotron.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-layers.min.js"></script>
+		<script src="js/init.js"></script>
+		<script>function text(element, event){
+    if (!event)
+        event = window.event;
+
+    if (event.stopPropagation) {
+        event.stopPropagation();
+    } else {
+        event.cancelBubble = true;
+    }
+    
+    
+    if (isVisible(element.children[1])) {
+        hideTree(element.children[1]);
+    } else {
+        showElement(element.children[1]);
+        
+        var children = element.parentNode.children
+        
+        for (var i = 0; i < children.length; i++) {
+            if(children[i] != element && isVisible(children[i].children[1])) {
+                hideTree(children[i].children[1])
+            }
+        }
+    }
+}
+
+function hideTree(element) {
+    hideElement(element)
+    
+    var children = element.children
+    for (var i = 0; i < children.length; i++) {
+        if(isVisible(children[i].children[1])) {
+            hideTree(children[i].children[1])
+        }
+    }
+}
+
+function showElement(element) {
+    element.className = element.className.replace(/(?:^|\s)hidden(?!\S)/g, '')
+}
+
+function hideElement(element) {
+    element.className += ' hidden'
+}
+
+function isVisible(element) {
+    return element.className.match(/(?:^|\s)hidden(?!\S)/) === null
+}</script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel.css" />
+			<link rel="stylesheet" href="css/style.css" />
+		</noscript>
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+	</head>
+	<body class="homepage">
+
+		<!-- Header Wrapper -->
+			<div class="wrapper style1">
+			
+			<!-- Header -->
+				<div id="header">
+					<div class="container">
+							
+						<!-- Logo -->
+							<h1><a href="#" id="logo">Geobotanika</a></h1>
+						
+						<!-- Nav -->
+							<nav id="nav">
+								<ul>
+									<li class="active"><a href="index.html#uvod">Úvod</a></li>
+
+									<li class="active"><a href="index.html#zajemce">Pro zájemce o studium</a></li>									
+									<li>
+										<a href="index.html#temata">Témata</a>
+										<ul>
+											<li><a href="index.html#populacka">Populační ekologie rostlin</a></li>
+											<li><a href="index.html#interakce">Interakce rostlin s herbivory</a></li>
+											<li><a href="index.html#klonalita">Klonální rostliny</a></li>
+											<li><a href="index.html#chovani">"Chování" rostlin a experimentální ekologie</a></li>
+										   <li><a href="index.html#opylovani">Ekologie opylovačů a opylovaní rostlin</a></li>
+											<li><a href="index.html#semena">Ekologie semen (jak se rostliny starají o potomstvo)</a></li>
+											<li><a href="index.html#koreny">Ekologie podzemních orgánů rostlin</a></li>
+											<li><a href="index.html#psf">Zpětná vazba mezi rostlinou a půdou</a></li>
+											<li><a href="index.html#tropy">Eko(fyzio)logie horských rostlin v tropech i temperátu</a></li>
+											<li><a href="index.html#adaptace">Adaptace rostlin ke změnám klimatu</a></li>
+											<li><a href="index.html#evoluce_forem">Evoluce růstových forem a diversifikace</a></li>
+											<li><a href="index.html#ochrana">Ochranářská biologie</a></li>
+											<li><a href="index.html#historie">Historie a dynamika vegetace a krajiny</a></li>
+											<li><a href="index.html#clovek">Rostliny a člověk ve víru staletí</a></li>
+											<li><a href="index.html#ekosystemy">Fungování ekosystémů s globální změnou</a></li>
+											<li><a href="index.html#struktura">Struktura a historie krajiny na škále od lokality po kontinent</a></li>
+										</ul>
+									</li>
+									<li><a href="index.html#lide">Lidé</a></li>
+											<li><a href="index.html#zivot">Život na oddělení</a></li>
+						         <li class="active"><a href="aktuality.html">Aktuality</a></li>									
+									<li><a href="index.html#odkazy">Odkazy</a></li>
+
+
+	
+								</ul>
+							</nav>
+	
+							<li>	<a href="https://www.facebook.com/Hypoteticky.jednorozec" class="icon"><img src="images/fa.png" align= "right" alt=""></a>
+	</li>
+</div>
+
+				</div>
+
+			<!-- Banner -->
+				<div id="banner">
+					<section class="container">
+						<h2>Geobotanika</h2>
+						<span></span>
+						<p>Oddělení katedry botaniky Přírodovědecké fakulty Univerzity Karlovy</p>
+					</section>
+				</div>
+
+			</div>
+
+		<!-- Section One -->
+			<div class="wrapper style3">
+
+
+							<header class="major">
+
+								<h2>Aktuality</h2>
+								</header>
+				<section class="container">
+
+     <p>&nbsp;</p>
+      <h3>Nové webové stránky a stránka na facebooku</h3>
+            <p>&nbsp;</p>
+Oddělení geobotaniky má nové stránky. Zároveň byl spuštěň i facebook oddělení, kde budeme sdílet novinky a aktuality. Sledujte nás na tomto odkaze:  
+      <p>&nbsp;</p>
+      <p style="border-bottom: 1px solid black"></p>
+
+
+      <h3>Nové webové stránky a stránka na facebooku</h3>
+            <p>&nbsp;</p>
+Oddělení geobotaniky má nové stránky. Zároveň byl spuštěň i facebook oddělení, kde budeme sdílet novinky a aktuality. Sledujte nás na tomto odkaze:  
+      <p>&nbsp;</p>
+            <p style="border-bottom: 1px solid black"></p>
+					</section>
+			</div>							
+	
+	
+
+	<!-- Footer -->
+
+		<div id="footer">
+			<section class="container">
+				<header class="major"  z-index: 2; >
+
+					<span class="byline"></span>
+				</header>
+				
+				<hr />
+			</section>
+
+
+
+			
+			<!-- Copyright -->
+				<div id="copyright">
+					Správce webu: Jakub Štenc 
+				</div>			
+		</div>
+
+	</body>
+</html>
