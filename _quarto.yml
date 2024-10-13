@@ -3,13 +3,7 @@ project:
   output-dir: ./docs
 website:  
   title: "Jakub Štenc"
-  navbar: 
-    logo: "images/pyl.png"
-    right: 
-      - text: "English"
-        href: index.html
-      - text: "Česky"
-        href: index_cz.html  
+ 
       
 format: 
   html:
