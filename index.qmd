@@ -2,6 +2,13 @@
 title: "Jakub Štenc"
 format: html
 editor: visual
+navbar: 
+    logo: "images/pyl.png"
+    right: 
+      - text: "English"
+        href: ../docs/index.html
+      - text: "Česky"
+        href: ../docs/index_cz.html  
 ---
 
 ## Quarto

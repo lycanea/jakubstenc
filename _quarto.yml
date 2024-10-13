@@ -1,8 +1,17 @@
 project:  
-  type: website 
+  type: website
   output-dir: ./docs
-  
-profile: 
-  default: default
-  group: 
-    - [english, czech, default]
+website:  
+  title: "Jakub Štenc"
+  navbar: 
+    logo: "images/pyl.png"
+    right: 
+      - text: "English"
+        href: ../docs/index.html
+      - text: "Česky"
+        href: ../docs/index_cz.html  
+      
+format: 
+  html:
+    theme: sandstone
+    toc: true
