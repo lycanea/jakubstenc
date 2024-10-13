@@ -7,9 +7,9 @@ website:
     logo: "images/pyl.png"
     right: 
       - text: "English"
-        href: ../docs/index.html
+        href: index.html
       - text: "Česky"
-        href: ../docs/index_cz.html  
+        href: index_cz.html  
       
 format: 
   html:
