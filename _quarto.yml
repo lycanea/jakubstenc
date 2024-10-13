@@ -3,6 +3,6 @@ project:
   output-dir: ./docs
   
 profile: 
-  default: english
+  default: default
   group: 
-    - [english, czech]
+    - [english, czech, default]
