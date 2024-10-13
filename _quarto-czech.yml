@@ -1,0 +1,17 @@
+project:  
+  type: website
+  output-dir: ./docs/czech
+website:  
+  title: "Jakub Štenc"
+  navbar: 
+    logo: "images/pyl.png"
+    right: 
+      - text: "English"
+        href: ../english/index.html
+      - text: "Česky"
+        href: ../czech/index.html  
+      
+format: 
+  html:
+    theme: sandstone
+    toc: true
