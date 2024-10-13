@@ -1,0 +1,15 @@
+---
+title: "Jakub Štenc"
+format: html
+editor: visual
+---
+
+## Quarto
+
+::: {.content-hiden when-profile="english"}
+English
+:::
+
+::: {.content-visible when-profile="czech"}
+Česky
+:::
