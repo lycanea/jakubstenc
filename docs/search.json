@@ -1,12 +1,5 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Jakub Štenc",
-    "section": "",
-    "text": "Hi, I am Jakub Štenc\nI am freshly finished PhD, currently looking for postdoc. I am interested in pollination, pollen transfer, floral ecology, pollinator behaviour and plant-pollinator interactions on the community level."
-  },
-  {
     "objectID": "CV.html",
     "href": "CV.html",
     "title": "Jakub Štenc",
@@ -47,5 +40,12 @@
     "title": "Jakub Štenc",
     "section": "",
     "text": "Janovský, Z., & Štenc, J. (2023). Pollinator community and generalisation of pollinator spectra changes with plant niche width and local dominance. Functional Ecology, 00, 1–10. https://doi.org/10.1111/1365-2435.14439\nMatoušková, E., Štenc, J., & Janovský, Z. (2023). Innate preferences of Eristalis tenax L. (Syrphidae) for flower colour, size and symmetry are more intricate than the simple additive model. Biological Journal of the Linnean Society, 140(1), 110–119. https://doi.org/10.1093/BIOLINNEAN/BLAD035\nŠtenc, J., Janošík, L., Matoušková, E., Hadrava, J., Mikát, M., & Janovský, Z. (2023). Pollinator visitation closely tracks diurnal patterns in pollen release. American Journal of Botany, e16179. https://doi.org/10.1002/AJB2.16179\nKoupilová, K., Štenc, J., & Janovský, Z. (2022). Pollinators adjust their behavior to presence of pollinator-transmitted pathogen in plant population. Behavioral Ecology, 33(2), 319–328. https://doi.org/10.1093/BEHECO/ARAB153\nKoupilová, K., Štenc, J., & Janovský, Z. (2021). Pollen dispersal is driven by pollinator response to plant disease and plant spatial aggregation. Basic and Applied Ecology, 50, 77–86. https://doi.org/10.1016/j.baae.2020.10.007"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Jakub Štenc",
+    "section": "",
+    "text": "Hi, I am Jakub Štenc\nI am freshly finished PhD, currently looking for postdoc. I am interested in pollination, pollen transfer, floral ecology, pollinator behaviour and plant-pollinator interactions on the community level."
   }
 ]
