@@ -1,23 +1,16 @@
-document.addEventListener("DOMContentLoaded", function () {
-  // Get the current path
-  const currentPath = window.location.pathname;
+document.addEventListener("DOMContentLoaded", () => {
+  // Get the current path excluding the base URL
+  const currentPath = window.location.pathname.replace("/jakubstenc/", "");
 
-  // Determine if we're in the Czech or English folder
-  const isCzech = currentPath.includes("/cz/");
+  // Handle the Czech language switch
+  document.getElementById("lang-switch-czech").addEventListener("click", () => {
+    window.location.href = "/jakubstenc/cz/" + (currentPath || "index.html");
+  });
 
-  // Language switcher links
-  const czechLink = document.querySelector(".lang-switch-czech");
-  const englishLink = document.querySelector(".lang-switch-english");
-
-  if (czechLink && englishLink) {
-    if (isCzech) {
-      // Switch to English version (remove /cz/)
-      englishLink.href = currentPath.replace("/cz/", "/");
-    } else {
-      // Switch to Czech version (add /cz/ before file name)
-      const pathParts = currentPath.split("/");
-      pathParts.splice(pathParts.length - 1, 0, "cz");
-      czechLink.href = pathParts.join("/");
-    }
-  }
+  // Handle the English language switch
+  document.getElementById("lang-switch-english").addEventListener("click", () => {
+    // If already in the Czech folder, strip "/cz/" from the path
+    const englishPath = currentPath.replace(/^cz\//, "");
+    window.location.href = "/jakubstenc/" + (englishPath || "index.html");
+  });
 });
