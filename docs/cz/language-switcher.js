@@ -1,16 +1,16 @@
 document.addEventListener("DOMContentLoaded", () => {
-  // Get the current path excluding the base URL
-  const currentPath = window.location.pathname.replace("/jakubstenc/", "");
+  // Get the current path (excluding the base URL and subfolder)
+  const currentPath = window.location.pathname.replace(/^\/jakubstenc\//, "");
 
-  // Handle the Czech language switch
+  // Handle Czech language switch
   document.getElementById("lang-switch-czech").addEventListener("click", () => {
-    window.location.href = "/jakubstenc/cz/" + (currentPath || "index.html");
+    let czechPath = "/jakubstenc/cz/" + (currentPath || "index.html"); // Default to "index.html" if no path
+    window.location.href = czechPath;
   });
 
-  // Handle the English language switch
+  // Handle English language switch
   document.getElementById("lang-switch-english").addEventListener("click", () => {
-    // If already in the Czech folder, strip "/cz/" from the path
-    const englishPath = currentPath.replace(/^cz\//, "");
-    window.location.href = "/jakubstenc/" + (englishPath || "index.html");
+    let englishPath = "/jakubstenc/" + currentPath.replace(/^cz\//, ""); // Remove "cz/" prefix for English
+    window.location.href = englishPath;
   });
 });
